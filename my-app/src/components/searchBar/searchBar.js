@@ -34,10 +34,7 @@ class SearchBar extends React.Component {
                 onChange={this.getSearchKey}
                 value={this.state.term}
                 />
-                <button 
-                className="btn btn-secondary"
-                type="submit"
-                >Submit </button>
+                
                 </form>
             </div>
         )
